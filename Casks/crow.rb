@@ -7,7 +7,7 @@ cask "crow" do
   desc "Finder-style file explorer"
   homepage "https://github.com/paraversal/file-crow"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Crow.app"
   binary "#{appdir}/Crow.app/Contents/Resources/crow"
