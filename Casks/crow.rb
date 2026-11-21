@@ -13,7 +13,6 @@ cask "crow" do
   binary "#{appdir}/Crow.app/Contents/Resources/crow"
 
   zap trash: [
-    "~/.config/crow",
     "~/.local/state/crow",
     "~/Library/Caches/crow",
     "~/Library/Logs/Crow",
