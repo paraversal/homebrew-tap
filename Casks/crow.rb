@@ -2,10 +2,10 @@ cask "crow" do
   version "0.1.0"
   sha256 "0187812a85c0ccc8d29f4a0165e632e5156139362a991124ff16d11e1611443b"
 
-  url "https://github.com/paraversal/file-crow/releases/download/v#{version}/Crow-#{version}.dmg"
+  url "https://github.com/paraversal/crow/releases/download/v#{version}/Crow-#{version}.dmg"
   name "Crow"
   desc "Finder-style file explorer"
-  homepage "https://github.com/paraversal/file-crow"
+  homepage "https://github.com/paraversal/crow"
 
   depends_on macos: :sonoma
 
