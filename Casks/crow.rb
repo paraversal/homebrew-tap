@@ -1,6 +1,6 @@
 cask "crow" do
   version "0.1.0"
-  sha256 "e183c6fbe2698ad0f6ea76159cc8643e0b4497675a254e0cfd2c05866be630dc"
+  sha256 "b0b866d8eaecb788ce6dd79e6ec5ec87cd500408d26f8194f16da611e9535730"
 
   url "https://github.com/paraversal/crow/releases/download/v#{version}/Crow-#{version}.dmg"
   name "Crow"
